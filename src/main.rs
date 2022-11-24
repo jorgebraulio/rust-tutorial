@@ -1,6 +1,8 @@
 mod ml_data;
 
-fn main() {}
+fn main(){
+    crate::ml_data::load_json_test();
+}
 
 fn consume_s(s: String) -> usize {
     s.len()
